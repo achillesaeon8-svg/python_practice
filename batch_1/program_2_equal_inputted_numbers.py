@@ -1,9 +1,9 @@
-first_number = float(input("Enter your first number: "))
-second_number = float(input("Enter your second number: "))
+first_number = float(input('Enter your first number: '))
+second_number = float(input('Enter your second number: '))
 
 if first_number == second_number:
-    print("Both numbers are equal")
+    print('Both numbers are equal.')
 elif first_number != second_number:
-    print("Both numbers are not equal")
+    print('Both numbers are not equal.')
 else:
-    print("incorrect input")
+    print('Incorrect input.')
