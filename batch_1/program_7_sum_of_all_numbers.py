@@ -1,13 +1,17 @@
-# chosen_numbers = []
-# print("Enter 10 numbers: ")
+chosen_numbers = 0
 
-# for i in range(9):
-#     while True:
-#         try:
-#             num = float(input("Enter number" {i+1}": "))
-#             chosen_numbers.append(numbers)
-#             break
-#         except ValueError:
-#             print("Invalid Input.")
+print('Enter 10 numbers: ')
+
+for i in range(1, 11):
+    while True:
+        try:
+
+            inputted_numbers = int(input(f'Enter number {i}: '))
+            chosen_numbers += inputted_numbers
+
+            break
+
+        except ValueError:
+            print('Invalid Input. Please try again.')
                 
-# print("The sum of all 10 numbers are", all_numbers_sum)
+print(f'The sum of all 10 numbers are {chosen_numbers}.')
