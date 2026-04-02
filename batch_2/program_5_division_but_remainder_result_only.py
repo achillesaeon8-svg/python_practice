@@ -1,4 +1,4 @@
-first_number = int(input('Enter a first number: '))
+first_number = int(input('Enter your first number: '))
 second_number = int(input('Enter a second number: '))
 
 remainder = second_number % first_number

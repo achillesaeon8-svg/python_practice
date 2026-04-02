@@ -1,5 +1,5 @@
 first_number = float(input('Enter your first number: '))
-second_number = float(input('Enter your second number: '))
+second_number = float(input('Enter a second number: '))
 
 product = first_number * second_number
 

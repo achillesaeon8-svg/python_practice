@@ -1,5 +1,5 @@
 first_number = int(input('Enter your first number: '))
-second_number = int(input('Enter your second number: '))
+second_number = int(input('Enter a second number: '))
 
 difference = first_number - second_number
 

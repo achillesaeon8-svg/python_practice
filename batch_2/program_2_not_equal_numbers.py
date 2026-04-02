@@ -1,5 +1,5 @@
 first_number = int(input('Enter your first number: '))
-second_number = int(input('Enter your second number: '))
+second_number = int(input('Enter a second number: '))
 
 if first_number == second_number:
     print('Both numbers are equal.')
