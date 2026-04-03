@@ -5,7 +5,10 @@ if users_decision.lower() == 'yes':
         
         if str(number_sequence).endswith('0'):
             continue
-        print(number_sequence, end= ' ')
+        if number_sequence == 99:
+            print(number_sequence, end='.')
+        else:
+            print(number_sequence, end=', ')
 
 elif users_decision.lower() == 'no':
     print('Thank you for considering our program.')

@@ -6,7 +6,7 @@ if users_decision.lower() == 'yes':
         for number_sequence in range(2, 101, 2):
 
             if number_sequence == 100:
-                print(number_sequence, end='\b.')
+                print(number_sequence, end='.')
             else:
                 print(number_sequence, end=', ')
 

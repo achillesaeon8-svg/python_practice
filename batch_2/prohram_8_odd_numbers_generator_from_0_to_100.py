@@ -11,7 +11,7 @@ if users_decision.lower() == 'yes':
                 continue
 
             if number_sequence == 99:
-                print(number_sequence, end='\b.')
+                print(number_sequence, end='.')
             else:
                 print(number_sequence, end=', ')
 elif users_decision.lower() == 'no':
