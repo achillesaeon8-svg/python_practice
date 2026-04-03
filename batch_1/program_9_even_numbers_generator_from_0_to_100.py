@@ -1,4 +1,4 @@
-users_decision = input('Do you want generate even numbers only from 0 to 100? Yes or No: ')
+users_decision = input('Do you want to generate even numbers only from 0 to 100? Yes or No: ')
 
 if users_decision.lower() == 'yes':
         print('These are all the even numbers only from 0 to 100:', end=' ')
