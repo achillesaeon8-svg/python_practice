@@ -2,11 +2,11 @@ chosen_numbers = 0
 
 print('Enter 10 numbers: ')
 
-for i in range(1, 11):
+for numerical_range in range(1, 11):
     while True:
         try:
 
-            inputted_numbers = int(input(f'Enter number {i}: '))
+            inputted_numbers = int(input(f'Enter number {numerical_range}: '))
             chosen_numbers += inputted_numbers
 
             break
