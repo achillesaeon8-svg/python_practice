@@ -1,3 +1,5 @@
+# Prog10: Create a program that ask user to input 2 numbers. Print all the numbers between the two numbers.
+
 print('Enter 2 numbers: ')
 first_number = int(input('Enter your first number: '))
 second_number = int(input('Enter your second number: '))
