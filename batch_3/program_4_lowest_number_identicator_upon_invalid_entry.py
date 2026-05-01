@@ -9,11 +9,9 @@ while True:
         inputted_numbers = int(inputted_characters)
         stored_numbers.append(inputted_numbers)
 
-    except ValueError:
-        print('You had not input a number.')  
-
         if stored_numbers:
             lowest_number = min(stored_numbers)
             print(f'{lowest_number} is the lowest number.')
-
+    except ValueError:
+        print('You had not input a number.')  
         break
