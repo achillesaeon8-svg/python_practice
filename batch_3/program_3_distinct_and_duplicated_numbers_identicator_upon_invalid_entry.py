@@ -6,12 +6,15 @@ while True:
 
     try:
 
-        inputted_numnbers = int(inputted_characters)
+        inputted_numbers = int(inputted_characters)
         
         if inputted_characters in stored_numbers:
             print('Duplicate')
+
         else:
             print('Unique')
+            stored_numbers.append(inputted_characters)
+
     except ValueError:
         print('You had not input a number.')
         break   
