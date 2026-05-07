@@ -14,6 +14,7 @@ while True:
 
         if stored_numbers:
             stored_numbers.sort()
-            print(f'{stored_numbers} these are the numbers that are organized from lowest to highest.')
+            ascending_order_numbers = ', '.join(map(str, stored_numbers))
+            print(f'{ascending_order_numbers} these are the numbers that are organized from lowest to highest.')
 
         break
