@@ -9,8 +9,11 @@ while True:
         inputted_numbers = int(inputted_characters)
         stored_numbers.append(inputted_numbers)
 
-        print(sorted(f'{stored_numbers} these are the numbers that are organized from lowest to highest.'))
-
     except:
         print('You have not input a number.')
+
+        if stored_numbers:
+            stored_numbers.sort()
+            print(f'{stored_numbers} these are the numbers that are organized from lowest to highest.')
+
         break
